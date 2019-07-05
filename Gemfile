@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.5.5'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 gem 'responders', '~> 2.0'
@@ -44,6 +46,8 @@ gem 'delayed_job_active_record'
 
 gem 'annotate'
 
+gem 'json', '~> 1.8.6'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -62,4 +66,3 @@ group :test do
   gem 'faker'
   gem 'factory_girl_rails'
 end
-
